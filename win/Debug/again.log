@@ -1,0 +1,24 @@
+﻿La génération a démarré 27.11.2013 15:16:57.
+     1>Projet "C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\again.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Debug\dephase2.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../../win/vstplug.def" /MANIFEST /ManifestFile:"Debug\dephase2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.lib" /MACHINE:X86 /DLL Debug\audioeffect.obj
+         Debug\audioeffectx.obj
+         Debug\vstplugmain.obj
+         Debug\dephase2.obj
+     1>audioeffect.obj : warning LNK4075: ' /EDITANDCONTINUE' ignoré à cause de la spécification '/INCREMENTAL:NO'
+            Création de la bibliothèque C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.lib et de l'objet C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.exp
+         again.vcxproj -> C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Debug\dephase2.dll;#2" /manifest Debug\dephase2.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\dephase2.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\dephase2.lastbuildstate".
+     1>Génération du projet "C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\again.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.65

@@ -1,0 +1,36 @@
+﻿La génération a démarré 04.01.2015 14:41:19.
+     1>Projet "C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\again.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Release\dephase2.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../.. /Zi /nologo /W3 /WX- /O2 /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D AGAIN_EXPORTS /D _CRT_SECURE_NO_DEPRECATE=1 /D _WINDLL /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\source\vst2.x\audioeffect.cpp ..\..\..\..\source\vst2.x\audioeffectx.cpp ..\..\..\..\source\vst2.x\vstplugmain.cpp ..\source\calde.cpp ..\source\dephase2.cpp ..\source\log.cpp ..\source\singen.cpp
+         audioeffect.cpp
+         audioeffectx.cpp
+         vstplugmain.cpp
+         calde.cpp
+         dephase2.cpp
+         log.cpp
+         singen.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../../win/vstplug.def" /MANIFEST /ManifestFile:"Release\dephase2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.lib" /MACHINE:X86 /DLL Release\audioeffect.obj
+         Release\audioeffectx.obj
+         Release\vstplugmain.obj
+         Release\calde.obj
+         Release\dephase2.obj
+         Release\log.obj
+         Release\singen.obj
+            Création de la bibliothèque C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.lib et de l'objet C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.exp
+         Génération de code en cours
+         Fin de la génération du code
+         again.vcxproj -> C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\Release\dephase2.dll;#2" /manifest Release\dephase2.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\dephase2.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\dephase2.lastbuildstate".
+     1>Génération du projet "C:\vstsdk2.4\public.sdk\samples\vst2.x\Dephase2\win\again.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.10

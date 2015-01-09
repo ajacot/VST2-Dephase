@@ -1,0 +1,9 @@
+<VSTParametersStructure>
+	<Param id="0" name="Deg" label="pieds"/>
+	<Param id="1" name="Balance" label="juste"/>
+	<Param id="2" name="Integrator" label="grüss Got"/>
+	<Param id="3" name="modVitesse" label="jambes"/>
+	<Param id="4" name="clipSound" label="von"/>
+	<Param id="5" name="Sinus" label="mein"/>
+	<Param id="6" name="Volume" label="dB"/>
+</VSTParametersStructure>
